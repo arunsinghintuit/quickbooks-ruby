@@ -16,6 +16,7 @@ describe "Quickbooks::Model::RefundReceipt" do
     expect(custom_field.string_value).to eq("2435245")
 
     expect(refund_receipt.doc_number).to eq("10030")
+    expect(refund_receipt.shipping_tax_included_in_total_tax?).to be true
     expect(refund_receipt.txn_date).to eq(Date.civil(2014, 04, 24))
 
     expect(refund_receipt.department_ref).not_to be_nil

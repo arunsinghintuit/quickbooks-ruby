@@ -12,6 +12,7 @@
     <StringValue>2435245</StringValue>
   </CustomField>
   <DocNumber>10030</DocNumber>
+  <ShippingTaxIncludedInTotalTax>true</ShippingTaxIncludedInTotalTax>
   <TxnDate>2014-04-24</TxnDate>
   <DepartmentRef name="Garden Services">1</DepartmentRef>
   <CurrencyRef name="United States Dollar">USD</CurrencyRef>

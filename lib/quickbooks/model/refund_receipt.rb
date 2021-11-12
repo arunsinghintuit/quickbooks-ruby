@@ -39,6 +39,7 @@ module Quickbooks
 
       xml_accessor :exchange_rate, :from => 'ExchangeRate', :as => BigDecimal, :to_xml => to_xml_big_decimal
       xml_accessor :linked_transactions, :from => 'LinkedTxn', :as => [LinkedTransaction]
+      xml_accessor :shipping_tax_included_in_total_tax?, :from => 'ShippingTaxIncludedInTotalTax'
 
       # readonly
       xml_accessor :total, :from => 'TotalAmt', :as => BigDecimal
